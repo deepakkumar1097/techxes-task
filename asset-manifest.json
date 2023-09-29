@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/techxes-task/static/css/main.145ca3c1.css",
+    "main.js": "/techxes-task/static/js/main.e465df06.js",
+    "static/media/nathan-fertig-FBXuXp57eM0-unsplash.jpg": "/techxes-task/static/media/nathan-fertig-FBXuXp57eM0-unsplash.448bb09a2eaf877eac2b.jpg",
+    "static/media/vecteezy_lamp-lamp-png-table-lamp-transparent-background-ai_27536274_410.png": "/techxes-task/static/media/vecteezy_lamp-lamp-png-table-lamp-transparent-background-ai_27536274_410.36111a76df7ec9a8b33a.png",
+    "static/media/spacejoy-c0JoR_-2x3E-unsplash.jpg": "/techxes-task/static/media/spacejoy-c0JoR_-2x3E-unsplash.8b361dcac4b1c3141407.jpg",
+    "static/media/vecteezy_modern-kitchen-cabinet-isolated-on-transparent_18929797_232.png": "/techxes-task/static/media/vecteezy_modern-kitchen-cabinet-isolated-on-transparent_18929797_232.a0ec34227f54a09ab5da.png",
+    "static/media/spacejoy-RqO6kwm4tZY-unsplash.jpg": "/techxes-task/static/media/spacejoy-RqO6kwm4tZY-unsplash.17a4e0f700b2af7d4f27.jpg",
+    "static/media/toa-heftiba-FV3GConVSss-unsplash.jpg": "/techxes-task/static/media/toa-heftiba-FV3GConVSss-unsplash.e5f51ead68cd38a0960f.jpg",
+    "static/media/daniil-silantev-1P6AnKDw6S8-unsplash.jpg": "/techxes-task/static/media/daniil-silantev-1P6AnKDw6S8-unsplash.cfee256587859dac6d72.jpg",
+    "static/media/vecteezy_minimalistic-modern-living-room-wooden-desk-clipart-on_26844837_476.png": "/techxes-task/static/media/vecteezy_minimalistic-modern-living-room-wooden-desk-clipart-on_26844837_476.bff1b2f1be55f2a661c1.png",
+    "static/media/modern-white-sofa-isolated-on-transparent-background-ai-generated-png.webp": "/techxes-task/static/media/modern-white-sofa-isolated-on-transparent-background-ai-generated-png.bdac3b89e45d111d8edc.webp",
+    "static/media/furniture.jpg": "/techxes-task/static/media/furniture.6f73631c95f9153f794b.jpg",
+    "index.html": "/techxes-task/index.html",
+    "main.145ca3c1.css.map": "/techxes-task/static/css/main.145ca3c1.css.map",
+    "main.e465df06.js.map": "/techxes-task/static/js/main.e465df06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.145ca3c1.css",
+    "static/js/main.e465df06.js"
+  ]
+}
