@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useRef, useEffect } from "react";
+import Body from "./pages/Body";
+import Footer from "./pages/Footer";
+import Header from "./pages/Header";
+import "./styles/App.css";
+import Review from "./pages/Review";
+import Products from "./pages/Products";
 
 function App() {
+  const ref = useRef(null);
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsIntersecting(entry.isIntersecting);
+    });
+    console.log(isIntersecting);
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [isIntersecting]);
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.querySelectorAll("div").forEach((el) => {
+        el.classList.add("slide-in");
+      });
+    } else {
+      ref.current.querySelectorAll("div").forEach((el) => {
+        el.classList.remove("slide-in");
+      });
+    }
+  }, [isIntersecting]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <Header />
+      <Body ref={ref} />
+      <Products />
+      <Review />
+      <Footer />
     </div>
   );
 }
